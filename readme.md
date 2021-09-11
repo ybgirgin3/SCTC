@@ -24,7 +24,7 @@ $ sudo apt install tesseract-ocr \
 - using brew
 ```sh
 $ brew install tesseract \
-  brew install d-bus
+  brew install d-bus \
   pip3 install -r requirements.txt
 ```
 
