@@ -1,4 +1,21 @@
-## for ubuntu >= 18.04 & Mac
+# SCREENSHOT TO CLIPBOARD FOR LINUX & MACOS
+
+**for tracking the application future please see:**[TODO](TODO.md)
+
+## USAGE:
+
+- run getSS.py file from terminal using python3
+
+```sh
+ $ python3 getSS.py
+```
+
+- draw rectangle to target area
+- and done..
+
+## INSTALLATION
+
+**for ubuntu >= 18.04 & Mac**
 
 **required packages**
 
@@ -37,7 +54,7 @@ $ python3 getSS.py
 create config.py and paste
 
 ```
-tess_path = "tesseract bin path"
+tess_path = "<your tesseract installation path>"
 
 ```
 
