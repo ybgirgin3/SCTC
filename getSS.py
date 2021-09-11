@@ -5,6 +5,7 @@ import numpy as np
 import subprocess
 import cv2
 import os
+from config import *
 
 import notify2 as n2
 
@@ -25,4 +26,4 @@ if __name__ == '__main__':
     # show notification
     show_notif()
     getSS()
-    ittMain(fn)
+    ittMain(fn, tess_path)

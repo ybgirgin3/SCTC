@@ -2,3 +2,4 @@
 __pycache__/
 trash/
 data/
+config.py
