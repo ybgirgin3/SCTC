@@ -33,3 +33,16 @@ and then run
 ```sh
 $ python3 getSS.py
 ```
+
+create config.py and paste
+
+```
+tess_path = "tesseract bin path"
+
+```
+
+> to get tesseract bin path for linux
+>
+> ```sh
+> $ which tesseract
+> ```
