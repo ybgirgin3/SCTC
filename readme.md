@@ -12,7 +12,7 @@
 $ conda install -c conda-forge tesseract-ocr \
   conda install -c conda-forge dbus-python \
   pip3 install -r requirements.txt
-`
+```
 
 - using apt
 ```sh
