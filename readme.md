@@ -66,10 +66,13 @@ tess_path = "<your tesseract installation path>"
 > $ which tesseract
 > ```
 
-and then run
+create your sctc file like this:
 
 ```sh
-$ python3 getSS.py
+<path/to/your/python> <absolute/path/of/this/dir/getSS.py>
 ```
+
+and then you can use SCTC globally
+
 
 
