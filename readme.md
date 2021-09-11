@@ -54,7 +54,7 @@ and then run
 $ python3 getSS.py
 ```
 
-create config.py and paste
+create config.py and paste (you can see my own path in config.py file)
 
 ```
 tess_path = "<your tesseract installation path>"
