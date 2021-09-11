@@ -1,0 +1,8 @@
+formula: 1
+  get fullscreen screenshot normally convert image to text with python 
+formula: 2
+  get fullscreen screenshot with python and then image to text 
+formula: 3
+  get partially (reactangle area) screenshot and save it then image to text
+formula: 4
+  get partially (reactangle area) screenshot and then image to text

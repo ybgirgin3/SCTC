@@ -1,0 +1,4 @@
+pillow
+imutils
+opencv-python
+pytesseract

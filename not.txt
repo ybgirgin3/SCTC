@@ -1,0 +1,1 @@
+/home/berkay/anaconda3/envs/dev/share/tessdata/en.traineddata
