@@ -1,14 +1,21 @@
 # Import required packages
+
+from PIL import Image
+import pytesseract
+import pyperclip as pc
 import cv2
 import sys
-import pytesseract
-from PIL import Image
+
   
 # Mention the installed location of Tesseract-OCR in your system
-pytesseract.pytesseract.tesseract_cmd = "/home/berkay/anaconda3/envs/dev/bin/tesseract"
-  
-def ittMain(fn):
-    text = pytesseract.image_to_string(Image.open(fn), lang="eng")
-    print(text)
+def ittMain(fn,tess_path):
+    pytesseract.pytesseract.tesseract_cmd = tess_path
+    text = pytesseract.image_to_string(Image.open(fn), lang="eng").strip()
+    #print(text)
+    #print(type(text))
+    pc.copy(text)
+    return text
+    #print(pc.paste())
+
 
  
