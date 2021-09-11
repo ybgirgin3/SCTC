@@ -26,6 +26,7 @@
 ```sh
 $ conda install -c conda-forge tesseract-ocr \
   conda install -c conda-forge dbus-python \
+  sudo apt install libimlib2-dev \
   pip3 install -r requirements.txt
 ```
 
@@ -34,6 +35,7 @@ $ conda install -c conda-forge tesseract-ocr \
 ```sh
 $ sudo apt install tesseract-ocr \
   sudo apt install python3-dbus \
+  sudo apt install libimlib2-dev \
   pip3 install -r requirements.txt
 ```
 
@@ -42,6 +44,7 @@ $ sudo apt install tesseract-ocr \
 ```sh
 $ brew install tesseract \
   brew install d-bus \
+  sudo apt install libimlib2-dev \
   pip3 install -r requirements.txt
 ```
 
