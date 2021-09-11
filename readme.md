@@ -1,7 +1,7 @@
 ## for ubuntu 18.04 <
 
 **required packages**
-- [scrot-1.6](https://github.com/resurrecting-open-source-projects/scrot)(do not install from apt it's older version)
+- [scrot-1.6](https://github.com/resurrecting-open-source-projects/scrot) (apt includes older version do NOT use it)
 
 
 
