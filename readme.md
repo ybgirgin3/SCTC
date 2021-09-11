@@ -19,9 +19,11 @@
 
 **required packages**
 
-- [scrot-1.6](https://github.com/resurrecting-open-source-projects/scrot) (apt includes older version do NOT use it)
+- [scrot-1.6](https://github.com/resurrecting-open-source-projects/scrot) (apt includes older version do NOT use it, if your system already have it simply uninstall and install this 🙃)
+
 
 **- using conda (recommended)**
+**if you are using conda, don't forget to keep your conda environment active whole installation process**
 
 ```sh
 $ conda install -c conda-forge tesseract-ocr \
@@ -47,13 +49,10 @@ $ brew install tesseract \
   sudo apt install libimlib2-dev \
   pip3 install -r requirements.txt
 ```
+## AUTO CONFIG
+simply run installer.py file 😃 and it's need to be done..
 
-and then run
-
-```sh
-$ python3 getSS.py
-```
-
+## MANUAL CONFIG
 create config.py and paste (you can see my own path in config.py file)
 
 ```
@@ -66,3 +65,11 @@ tess_path = "<your tesseract installation path>"
 > ```sh
 > $ which tesseract
 > ```
+
+and then run
+
+```sh
+$ python3 getSS.py
+```
+
+
