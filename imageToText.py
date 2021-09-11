@@ -10,7 +10,7 @@ import sys
 # Mention the installed location of Tesseract-OCR in your system
 def ittMain(fn,tess_path):
     pytesseract.pytesseract.tesseract_cmd = tess_path
-    text = pytesseract.image_to_string(Image.open(fn), lang="tur").strip()
+    text = pytesseract.image_to_string(Image.open(fn), lang="eng").strip()
     #print(text)
     #print(type(text))
     pc.copy(text)
