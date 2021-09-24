@@ -1,1 +1,1 @@
-tess_path = '/home/berkay/anaconda3/envs/dev/bin/tesseract'
+tess_path = '/usr/bin/tesseract'

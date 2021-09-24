@@ -1,3 +1,5 @@
+opencv-python
+pyperclip
 pillow
 notify2
 pytesseract
