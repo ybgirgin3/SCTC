@@ -3,6 +3,7 @@ __pycache__/
 trash/
 data/
 scrot-1.6/
+scrot/
 config.py
 *.tar.gz
 *.zip
