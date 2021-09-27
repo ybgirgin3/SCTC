@@ -1,41 +1,78 @@
-## for ubuntu 18.04 <
+# SCREENSHOT TO CLIPBOARD FOR LINUX & MACOS
+
+**for tracking the application future please see:**[TODO](TODO.md)
+
+## USAGE:
+
+- run getSS.py file from terminal using python3
+
+```sh
+ $ python3 getSS.py
+```
+
+- draw rectangle to target area
+- and done..
+
+## INSTALLATION
+
+**for ubuntu >= 18.04 & Mac**
 
 **required packages**
-- [scrot-1.6](https://github.com/resurrecting-open-source-projects/scrot) (apt includes older version do NOT use it)
+
+- [scrot-1.6](https://github.com/resurrecting-open-source-projects/scrot) (apt includes older version do NOT use it, if your system already have it simply uninstall and install this 🙃)
 
 
+**- using conda (recommended)**
+**if you are using conda, don't forget to keep your conda environment active whole installation process**
 
-
-
-- using conda (recommended)
 ```sh
 $ conda install -c conda-forge tesseract-ocr \
   conda install -c conda-forge dbus-python \
+  sudo apt install libimlib2-dev \
   pip3 install -r requirements.txt
 ```
 
-- using apt
+**- using apt**
+
 ```sh
 $ sudo apt install tesseract-ocr \
   sudo apt install python3-dbus \
+  sudo apt install libimlib2-dev \
   pip3 install -r requirements.txt
 ```
 
-- using brew
+**- using brew**
+
 ```sh
 $ brew install tesseract \
   brew install d-bus \
+  sudo apt install libimlib2-dev \
   pip3 install -r requirements.txt
 ```
+## AUTO CONFIG
+simply run installer.py file 😃 and it's need to be done..
 
-## download pre-trained data
-**for english**
-```sh
-wget https://github.com/tesseract-ocr/tessdata/raw/master/eng.traineddata
-wget https://github.com/ZER-0-NE/EAST-Detector-for-text-detection-using-OpenCV/raw/master/frozen_east_text_detection.pb
+## MANUAL CONFIG
+create config.py and paste (you can see my own path in config.py file)
+
+```
+tess_path = "<your tesseract installation path>"
+
 ```
 
+> to get tesseract bin path for linux
+>
+> ```sh
+> $ which tesseract
+> ```
 
+create your sctc file like this:
+
+```sh
+<path/to/your/python> <absolute/path/of/this/dir/getSS.py>
+```
+
+and then you can use SCTC globally
 
 
 

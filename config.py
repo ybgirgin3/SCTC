@@ -1,0 +1,1 @@
+tess_path = '/usr/bin/tesseract'
