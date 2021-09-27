@@ -7,7 +7,8 @@
 - run getSS.py file from terminal using python3
 
 ```sh
- $ python3 getSS.py
+ $ python3 getSS.py         # to get text to clipboard
+ $ python3 getSS.py --save  # only save image
 ```
 
 - draw rectangle to target area
@@ -57,6 +58,7 @@ create config.py and paste (you can see my own path in config.py file)
 
 ```
 tess_path = "<your tesseract installation path>"
+save_path = "<pictures folder>"
 
 ```
 
@@ -73,6 +75,7 @@ create your sctc file like this:
 ```
 
 and then you can use SCTC globally
+
 
 
 
