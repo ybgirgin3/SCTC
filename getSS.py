@@ -4,7 +4,6 @@ from config import *
 import numpy as np
 import subprocess
 import argparse
-import cv2
 import os
 
 import notify2 as nt2
