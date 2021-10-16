@@ -1,0 +1,11 @@
+# exp: sudo apt install autoconf
+
+autoconf
+autoconf-archive
+pkg-config
+libimlib2-dev
+libxcomposite-dev
+libxext-dev
+libxfixes-dev
+
+

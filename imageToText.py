@@ -3,7 +3,6 @@
 from PIL import Image
 import pytesseract
 import pyperclip as pc
-import cv2
 import sys
 
   
