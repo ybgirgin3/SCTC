@@ -2,3 +2,4 @@ pyperclip
 pillow
 notify2
 pytesseract
+numpy

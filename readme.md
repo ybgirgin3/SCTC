@@ -1,4 +1,6 @@
-# SCREENSHOT TO CLIPBOARD FOR LINUX & MACOS
+# SCREENSHOT TO CLIPBOARD FOR LINUX 
+
+( - tested on ubuntu 20.04)
 
 **for tracking the application future please see:**[TODO](TODO.md)
 
